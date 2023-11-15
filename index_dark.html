@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna's Portfolio</title>
+    <link rel="stylesheet" href="style_dark.css">
+    <link rel="icon" href="icon.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="leftNav">Krishna's Portfolio</div>
+            <div class="rightNav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="mode"><a href="index_light.html">Light Mode</a></div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection" id="home">
+            <div class="leftSection">
+                <div>Hi, My name is <span class="text-purple">Krishna Raj</span></div>
+                <div>and I am a passionate</div>
+                <div><span class="text-purple">Web Developer</span></div>
+            </div>
+            <div class="rightSection"><img src="bg.png" alt="Developer_Image"></div>
+        </section>
+        <hr>
+        <section class="secondSection" id="about">
+            <h2>Work Experience</h2>
+            <p class="text-gray small-font">What I have done so far!</p>
+            <div class="horizontal">
+                <div class="vertical">
+                    <img src="html.png" alt="HTML">
+                    <div class="vertical-title">HTML Developer (2019-2020)</div>
+                    <div class="vertical-desc text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore laborum quia ea nemo quibusdam quos inventore illum odio illo commodi, ad nostrum sint!</div>
+                </div>
+                <div class="vertical">
+                    <img src="css.png" alt="CSS">
+                    <div class="vertical-title">CSS Developer (2020-2021)</div>
+                    <div class="vertical-desc text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore laborum quia ea nemo quibusdam quos inventore illum odio illo commodi, ad nostrum sint!</div>
+                </div>
+                <div class="vertical">
+                    <img src="bootstrap.png" alt="Bootstrap">
+                    <div class="vertical-title">Bootstrap Developer (2021-2022)</div>
+                    <div class="vertical-desc text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore laborum quia ea nemo quibusdam quos inventore illum odio illo commodi, ad nostrum sint!</div>
+                </div>
+                <div class="vertical">
+                    <img src="tailwind.png" alt="Tailwind CSS">
+                    <div class="vertical-title">Tailwind CSS Developer (2022-2023)</div>
+                    <div class="vertical-desc text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore laborum quia ea nemo quibusdam quos inventore illum odio illo commodi, ad nostrum sint!</div>
+                </div>
+                <div class="vertical">
+                    <img src="python.png" alt="Python">
+                    <div class="vertical-title">Python Developer (2022-2023)</div>
+                    <div class="vertical-desc text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore laborum quia ea nemo quibusdam quos inventore illum odio illo commodi, ad nostrum sint!</div>
+                </div>               
+        </section>
+        <section class="contactSection" id="contact">
+            <h2>Contact Me</h2>
+            <p>If you have any inquires or want to contact me, feel free to do so!</p>
+            <form action="send.html" target="_blank">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                
+                <label for="msg">Message:</label>
+                <textarea name="msg" id="msg" rows="4">Hi, nice to meet you!</textarea>
+    
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="first-footer">Krishna's Portfolio</div>
+            <div class="second-footer">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="third-footer">
+                <ul>
+                    <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+                    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy text-gray">Copyright &copy; 2023 krishnaportfolio.in | All Rights Reserved</div>
+    </footer>
+</body>
+</html>

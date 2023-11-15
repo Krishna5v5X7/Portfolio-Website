@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(1, 1, 56);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background-color: rgb(39 39 96);
+    border-radius: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    margin: 10px;
+    position: fixed;
+    width: 97%;
+    top: 0;
+}
+
+.leftNav{
+    font-size: 1.5rem;
+}
+
+.rightNav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.rightNav ul li{
+    list-style: none;
+    margin: 15px;
+}
+
+.rightNav ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+.rightNav ul li a:hover{
+    color:rgb(189, 186, 186);
+}
+
+.text-purple{
+    color: rgb(177, 124, 226);
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5vw;
+}
+
+.firstSection .rightSection img{
+    width:35vw;
+    margin-top: 15px;
+}
+
+.leftSection{
+    font-size: 2.5rem;
+}
+
+main hr{
+    border: 0;
+    background: rgb(165, 165, 248);
+    height: 2px;
+    margin: 30px;
+}
+
+.secondSection{
+    width: 80%;
+    margin: auto;
+    height: 30vw;
+}
+
+.text-gray{
+    color: rgb(156, 155, 155);
+}
+
+.small-font{
+    font-size: small;
+}
+
+.horizontal{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin-top: 12vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.vertical{
+    background: white;
+    width: 1px;
+    height: 93px;
+}
+
+.vertical-title{
+    width: 150px;
+    position: relative;
+    top: 16vh;
+}
+
+.vertical-desc{
+    font-size: 10px;
+    width: 30vh;
+    position: relative;
+    top: 17vh;
+}
+
+.contactSection{
+    color: black;
+    background-color:lavender;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+label, input, textarea{
+    display: block;
+}
+
+input, textarea{
+    width: 97%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+h2, p{
+    margin-top: 10px;
+}
+
+label{
+    margin-top: 10px;
+}
+
+input, textarea{
+    margin-top: 5px;
+}
+
+.btn{
+    margin: 20px 0;
+    border: 0;
+    background-color: #0078d7;
+    height: 37px;
+    width: 72px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.0rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #3690da;
+}
+
+footer{
+    background-color: rgb(29, 29, 61);
+    margin: 10px 0 0 0;
+    padding: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first-footer{
+    font-size: 1.5rem;
+}
+
+.second-footer li, .third-footer li{
+    list-style: none;
+}
+
+.second-footer li a, .third-footer li a{
+    text-decoration: none;
+    color: white;
+}
+
+.second-footer li a:hover, .third-footer li a:hover{
+    color: rgb(170, 178, 182);
+}
+
+.secondSection img{
+    width: 23px;
+    position: relative;
+    top: -26px;
+    left: -10px;
+}
+
+.copy{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mode a{
+    color: white;
+    text-decoration: none;
+    background-color: #0078d7;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.mode a:hover{
+    background-color: #338dd6;
+}
